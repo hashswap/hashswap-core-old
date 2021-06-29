@@ -1,0 +1,43 @@
+Things to Do / Sort Out / Finalize / Conceptual / Future Updates
+
+
+To Complete:
+
+1. Complete the "RemoveSponsor" by completing the process of redeeming from HEX when sponsor wants to remove sponsor amount. COMPLETED
+
+2. Add error msg to all the condions in Launcher and other contracts. COMPLETED
+
+3. Oracle and Burn/Mint for HUSD-HASH conversion using Zillinka
+
+
+To Do:
+
+1. Add a TEST transition in Launcher to change sate of pools for testing exceptions. DONE
+
+2. Complete Testing by simulating/raising all exceptions in Launcher. 
+
+
+
+3. Create a code to DISTRIBUTE transaction fee based on LP tokens.
+
+4. Create a WAY to "IncreaseAllowance" before calling "AddLiquidity" or "Addsponsor" by investors!!! 
+
+
+Finalize:
+
+1. Fix the dealine for Open, hold etc states of th pool. Get an estimate of how much is 1 month in blocks.
+
+2. Sort out the rules of how much influencer would release in first iteration of pool. If too many tokens then price increase slowly, if too little then slippage is more.
+
+
+
+
+
+
+Conceptual 
+
+1.  Min Liquidity in DEX: How is 1000000000000000 = 1000 zil. Is it a convention ?
+
+Resolved: basically to have decimal value in Zil it is required. Same thing needs to be done with HUSD. So like we call 1 HUSD = 1000000000000 HUSH 
+
+2. Create a WAY to "IncreaseAllowance" before calling "AddLiquidity" or "Addsponsor" by investors!!! 
